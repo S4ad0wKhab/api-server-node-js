@@ -49,3 +49,10 @@ npm start        # Runs build/app.js (not defined in package.json; use node buil
 ```
 You'll need:
 * **Node.js 18+** (uses crypto.randomBytes)
+* **MongoDB 5.0+** running on 127.0.0.1:27017 (hardcoded in db.ts)
+* A data/catalog/ directory with JSON files for items, recipes, journal entries, and NFC tags
+* A vanilla.zip resource pack in the data directory (path configurable in config.json)
+# ======================
+**Summarized by github copilot**
+
+**Original repo https://github.com/Project-Genoa/api-server-node-js**
